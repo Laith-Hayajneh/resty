@@ -6,6 +6,8 @@ form {
   margin: auto;
   width: 200px;
 
+  
+
   label {
     display: flex;
     margin: 1rem 0;
@@ -23,4 +25,10 @@ form {
       }
     }
   }
+}
+
+textarea{
+  flex: 1 1;
+  height: 89px;
+  width: 500px;
 }
