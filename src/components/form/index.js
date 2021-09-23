@@ -44,8 +44,8 @@ function Form(props) {
       <form onSubmit={handleSubmit}>
         <label >
           <span>URL: </span>
-          <input name='url' type='text' onChange={urlSet} />
-          <button type="submit">GO!</button>
+          <input name='url' type='text' onChange={urlSet} class="form-control" id="exampleInputEmail1" />
+          <button type="submit" class="btn btn-success">GO!</button>
         </label>
         <label className="methods">
           {/* <select name="method" id="method" defaultValue='get'>
