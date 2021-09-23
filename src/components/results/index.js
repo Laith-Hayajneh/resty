@@ -5,8 +5,15 @@ import 'react-json-pretty/themes/monikai.css';
 
 
 function Results(props) {
+  console.log(props.data, 'props data')
+  
   return (
-    <section>
+
+
+    <section className="float-child">
+      <h2>Results</h2>
+      {/* <pre>{props.data ? <JSONPretty data={props.data} /> : <Loading />}</pre> */}
+    
       <pre>{props.data ? <JSONPretty data={props.data} /> : <Loading />}</pre>
     </section>
   );
